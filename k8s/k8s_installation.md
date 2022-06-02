@@ -1,0 +1,1 @@
+https://gitee.com/yooome/golang/blob/main/k8s%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B-%E8%B0%83%E6%95%B4%E7%89%88/k8s%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B.md#https://gitee.com/link?target=https%3A%2F%2Fkubernetes.io%2Fdocs%2Freference%2Fsetup-tools%2Fkubeadm%2Fkubeadm%2F
