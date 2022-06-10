@@ -144,3 +144,12 @@ metadata:
 [root@k8s-master01 pod]# kubectl exec pod-command -n dev -it -c busybox /bin/sh
 ```
 
+### 查看log
+```shell
+[root@guangbao-10-190-90-202 yangliang]# kubectl logs -n n10011700 nest-image-10000
+[0606140619.003] INFO -Load config from file:////apps/alogic/alogic-scout/conf/scout.xml
+[0606140619.004] INFO -Use resource factory:com.anysoft.util.resource.ResourceFactory
+[0606140619.046] INFO -Add script.library = ${alogic.scout.rc}/conf/script.libary.xml to settings..
+[0606140619.046] INFO -Add remote.master = ${alogic.scout.rc}/conf/alogic.remote.xml#App to settings..
+```
+
