@@ -1,7 +1,5 @@
 VMware： https://pan.baidu.com/s/1ynMaUqtIzdfQt9d138OndQ fnw8
 
-
-
 centos 虚拟机安装教程
 
 https://www.bilibili.com/video/BV1WY4y1H7d3?p=8

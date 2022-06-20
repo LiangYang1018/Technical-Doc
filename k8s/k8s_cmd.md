@@ -37,9 +37,12 @@ events                            ev                                          tr
 ### 查看节点信息
 
 ```shell
-[root@guangbao-10-190-90-202 ~]# kubectl get nodes
-NAME                     STATUS   ROLES    AGE   VERSION
-guangbao-10-190-90-202   Ready    master   35d   v1.18.19+k3s1
+[root@master ~]# kubectl get nodes
+NAME     STATUS   ROLES    AGE   VERSION
+master   Ready    master   16d   v1.17.4
+node1    Ready    <none>   16d   v1.17.4
+node2    Ready    <none>   16d   v1.17.4
+
 ```
 
 
