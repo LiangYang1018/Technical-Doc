@@ -12,3 +12,11 @@
 
 
 
+## 下载管理
+
+如何查看yum 安装的软件路径&安装时将软件安装到指定路径
+
+https://blog.csdn.net/jsloveyou/article/details/94601163
+
+
+
