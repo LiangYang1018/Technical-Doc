@@ -111,3 +111,23 @@ https://blog.csdn.net/weixin_45522766/article/details/121431647
 
 https://docs.vmware.com/en/VMware-Workstation-Pro/16.0/com.vmware.ws.using.doc/GUID-D9B0A52D-38A2-45D7-A9EB-987ACE77F93C.html
 
+
+
+# vmware虚拟机挂起后关机再重启网卡破坏【解决】
+
+~~~shell
+#此操作可能需要等一会生效
+systemctl restart NetworkManager
+#关闭和禁用NetworkManager
+systemctl stop NetworkManager
+systemctl disable NetworkManager
+ 
+#重启网络(只有ens33)
+systemctl start network.service
+#重启全部网络(包括k8s网卡)
+service network restart
+~~~
+
+https://blog.csdn.net/kfepiza/article/details/124700636
+
+https://blog.csdn.net/weixin_34270606/article/details/92378798
